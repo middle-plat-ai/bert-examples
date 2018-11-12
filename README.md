@@ -19,7 +19,7 @@
 
 bert：github上的bert的源代码
 
-glue_data：下载的官方glue数据
+[glue_data](https://gluebenchmark.com/tasks)：下载的官方glue数据
 
 shells：运行的脚本
 
