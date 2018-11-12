@@ -6,15 +6,15 @@ BERT
 
 [BERT-Base, Uncased](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip): 12-layer, 768-hidden, 12-heads, 110M parameters
 
-BERT-Large, Uncased: 24-layer, 1024-hidden, 16-heads, 340M parameters
+[BERT-Large, Uncased](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip): 24-layer, 1024-hidden, 16-heads, 340M parameters
 
-BERT-Base, Cased: 12-layer, 768-hidden, 12-heads , 110M parameters
+[BERT-Base, Cased](https://storage.googleapis.com/bert_models/2018_10_18/cased_L-12_H-768_A-12.zip): 12-layer, 768-hidden, 12-heads , 110M parameters
 
-BERT-Large, Cased: 24-layer, 1024-hidden, 16-heads, 340M parameters (Not available yet. Needs to be re-generated).
+[BERT-Large, Cased]: 24-layer, 1024-hidden, 16-heads, 340M parameters (Not available yet. Needs to be re-generated).
 
-BERT-Base, Multilingual: 102 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
+[BERT-Base, Multilingual](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip): 102 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
 
-BERT-Base, Chinese: Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M parameters
+[BERT-Base, Chinese](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip): Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M parameters
 
 bert：github上的bert的源代码
 
@@ -51,5 +51,3 @@ sh shells/train_mrpc_zh.sh
 sh shells/predict_mrpc_zh.sh
 
 注：运行之前，需要先修改shell脚本里面的BERT_BASE_DIR、GLUE_DIR和TRAINED_CLASSIFIER路径。
-
-[Spring-data-jpa 查询  复杂查询陆续完善中](http://www.cnblogs.com/sxdcgaq8080/p/7894828.html)
