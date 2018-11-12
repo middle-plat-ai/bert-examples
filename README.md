@@ -1,6 +1,7 @@
 # bert-demo
 
-BERT
+[BERT](https://github.com/google-research/bert)
+
 
 预训练模型下载：
 
