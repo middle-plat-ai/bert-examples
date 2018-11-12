@@ -2,9 +2,13 @@
 
 BERT
 bert：github上的bert的源代码
+
 chinese_L-12_H-768_A-12：预训练的中文模型目录
+
 glue_data：下载的官方glue数据
+
 shells：运行的脚本
+
 tmp：运行结果目录
 
 mrpc
