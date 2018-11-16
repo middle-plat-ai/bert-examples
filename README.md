@@ -17,7 +17,21 @@
 
 [BERT-Base, Chinese](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip): Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M parameters
 
-### dir 
+### dir tree
+
+```
+bert-demo/
+├── [glue_data](https://gluebenchmark.com/tasks)    ## 下载的官方glue数据
+│   ├── MSRParaphraseCorpus  # rasa nlu train data
+│   ├── zhTTQ                # atec-NLP数据
+│   └── ...
+├── bert                      # github上的bert的源代码
+├── shells                    # 运行的脚本文件
+├── tmp                       # 结果目录
+├── requirement.txt           # run nlu and core server
+└── README.md                 # readme file
+
+```
 
 bert：github上的bert的源代码
 
