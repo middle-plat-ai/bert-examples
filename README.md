@@ -42,11 +42,11 @@ bert-demo/
 
 [glue_data/MSRParaphraseCorpus](https://www.microsoft.com/en-us/download/details.aspx?id=52398&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F607d14d9-20cd-47e3-85bc-a2f65cd28042%2F)
 
-训练直接运行：
+训练
 
 sh shells/train_mrpc.sh
 
-测试结果：
+测试
 
 sh shells/predict_mrpc.sh
 
@@ -63,11 +63,11 @@ Quality	#1 ID	#2 ID	#1 String	#2 String
 
 第一列是标签，第2列和第3列分别是string1和string2的编号，第4列和第5列分别是string1和实体ring2的分词结果，分隔符为\t
 
-训练直接运行：
+训练
 
 sh shells/train_mrpc_zh.sh
 
-测试结果：
+测试
 
 sh shells/predict_mrpc_zh.sh
 
