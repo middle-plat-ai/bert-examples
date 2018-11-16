@@ -56,12 +56,14 @@ glue_data/zhTTQ([atec-NLP数据](https://dc.cloud.alipay.com/index#/topic/intro?
 
 数据描述：
 
-第一列是标签，第2列和第3列分别是string1和string2的编号，第4列和第5列分别是string1和实体ring2的###分词结果
+
 
 Quality	#1 ID	#2 ID	#1 String	#2 String
 1	35489	110883	晚上 *** 点 从 借呗 借钱 ， 多久 到账	借呗 要 多久 到账 的
 0	39136	7574	蚂蚁 花呗 可以 推迟 几天 还 么	花呗 还款 十 日 之前 还是 可以 十 日 当天
 0	33871	58091	花呗 的 学历 认证 ， 文化 低 的 怎么办	花呗 认证 怎么 该
+
+第一列是标签，第2列和第3列分别是string1和string2的编号，第4列和第5列分别是string1和实体ring2的[分词]结果
 
 训练直接运行：
 
