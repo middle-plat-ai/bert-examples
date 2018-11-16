@@ -21,7 +21,7 @@
 
 ```
 bert-demo/
-├── [glue_data](https://gluebenchmark.com/tasks)    ## 下载的官方glue数据
+├── glue_data                # 下载的官方glue数据
 │   ├── MSRParaphraseCorpus  # rasa nlu train data
 │   ├── zhTTQ                # atec-NLP数据
 │   └── ...
@@ -33,13 +33,8 @@ bert-demo/
 
 ```
 
-bert：github上的bert的源代码
+[下载glue_data](https://gluebenchmark.com/tasks)
 
-[glue_data](https://gluebenchmark.com/tasks)：下载的官方glue数据
-
-shells：运行的脚本
-
-tmp：运行结果目录
 
 ### mrpc
 
