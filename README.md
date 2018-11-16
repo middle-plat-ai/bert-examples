@@ -36,11 +36,11 @@ bert-demo/
 [下载glue_data](https://gluebenchmark.com/tasks)
 
 
-## mrpc
+## Microsoft Research Paraphrase Corpus (MRPC) 
 
 ### 测试数据(英文)
 
-glue_data/MSRParaphraseCorpus
+[glue_data/MSRParaphraseCorpus](https://www.microsoft.com/en-us/download/details.aspx?id=52398&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F607d14d9-20cd-47e3-85bc-a2f65cd28042%2F)
 
 训练直接运行：
 
