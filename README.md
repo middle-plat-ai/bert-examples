@@ -41,7 +41,7 @@ sh shells/predict_mrpc.sh
 
 中文
 
-glue_data/zhTTQ
+glue_data/zhTTQ([atec-NLP数据](https://dc.cloud.alipay.com/index#/topic/intro?id=3))
 
 训练直接运行：
 
