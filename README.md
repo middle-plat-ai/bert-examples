@@ -1,6 +1,6 @@
 # bert-demo
 
-[BERT](https://github.com/google-research/bert)
+[BERT](https://github.com/google-research/bert)：google-BERT
 
 
 ## 预训练模型下载：
@@ -108,7 +108,7 @@ python predict_cli.py
 
 ## Reference
 
-1 [BERT](https://github.com/google-research/bert)
+1 [BERT](https://github.com/google-research/bert)：google-BERT
  
 2 [BERT-NER](https://github.com/kyzhouhzau/BERT-NER)
 
