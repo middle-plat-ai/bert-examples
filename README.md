@@ -72,3 +72,13 @@ sh shells/train_mrpc_zh.sh
 sh shells/predict_mrpc_zh.sh
 
 注：运行之前，需要先修改shell脚本里面的BERT_BASE_DIR、GLUE_DIR和TRAINED_CLASSIFIER路径。
+
+### Reference
+
+1 [BERT](https://github.com/google-research/bert)
+ 
+2 [BERT-NER](https://github.com/kyzhouhzau/BERT-NER)
+
+3 [BERT-NER-CLI](https://github.com/JamesGu14/BERT-NER-CLI)
+ 
+4 [bert-as-service](https://github.com/hanxiao/bert-as-service)
