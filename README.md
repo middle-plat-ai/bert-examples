@@ -44,11 +44,15 @@ bert-demo/
 
  训练
 
+```
   sh shells/train_mrpc.sh
+```
 
 测试
 
+```
   sh shells/predict_mrpc.sh
+```
 
 ### 中文
 
@@ -56,20 +60,25 @@ glue_data/zhTTQ([atec-NLP数据](https://dc.cloud.alipay.com/index#/topic/intro?
 
 数据描述：
 
+```
 Quality	#1 ID	#2 ID	#1 String	#2 String
 
 0	39136	7574	蚂蚁 花呗 可以 推迟 几天 还 么	花呗 还款 十 日 之前 还是 可以 十 日 当天
 
-
 第一列是标签，第2列和第3列分别是string1和string2的编号，第4列和第5列分别是string1和实体ring2的分词结果，分隔符为\t
+```
 
 训练
 
+```
 sh shells/train_mrpc_zh.sh
+```
 
 测试
 
+```
 sh shells/predict_mrpc_zh.sh
+```
 
 注：运行之前，需要先修改shell脚本里面的BERT_BASE_DIR、GLUE_DIR和TRAINED_CLASSIFIER路径。
 
@@ -81,15 +90,21 @@ sh shells/predict_mrpc_zh.sh
 
 训练
 
+```
 python bert_ner.py
+```
 
 测试
 
+```
 python ner_predict.py
+```
 
 命令行测试
 
+```
 python predict_cli.py
+```
 
 ### Reference
 
