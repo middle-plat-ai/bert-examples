@@ -82,7 +82,7 @@ sh shells/predict_mrpc_zh.sh
 
 注：运行之前，需要先修改shell脚本里面的BERT_BASE_DIR、GLUE_DIR和TRAINED_CLASSIFIER路径。
 
-### 命名实体识别(NER)
+## 命名实体识别(NER)
 
 ### 英文
 
