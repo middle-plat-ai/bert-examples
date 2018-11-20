@@ -106,7 +106,7 @@ python ner_predict.py
 python predict_cli.py
 ```
 
-### Reference
+## Reference
 
 1 [BERT](https://github.com/google-research/bert)
  
