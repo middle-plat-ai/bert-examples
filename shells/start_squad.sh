@@ -1,10 +1,10 @@
 #!/bin/bash
 
-export BERT_BASE_DIR=/data/NLP_datas/BERT/uncased_L-12_H-768_A-12
-export GLUE_DIR=/data/NLP_datas/BERT/glue_data
+export BERT_BASE_DIR=/data/NLP_projects/BERT/uncased_L-12_H-768_A-12
+export GLUE_DIR=/data/NLP_projects/BERT/glue_data
 export SQUAD_DIR=$GLUE_DIR/SQuAD
 
-cd /data/NLP_datas/BERT/bert
+cd /data/NLP_projects/BERT/bert
 
 python run_squad.py \
   --vocab_file=$BERT_BASE_DIR/vocab.txt \

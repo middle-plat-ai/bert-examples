@@ -1,9 +1,9 @@
 #!/bin/bash
 
-export BERT_BASE_DIR=/data/NLP_datas/BERT/chinese_L-12_H-768_A-12
-export GLUE_DIR=/data/NLP_datas/BERT/glue_data
+export BERT_BASE_DIR=/data/NLP_projects/BERT/chinese_L-12_H-768_A-12
+export GLUE_DIR=/data/NLP_projects/BERT/glue_data
 
-cd /data/NLP_datas/BERT/bert
+cd /data/NLP_projects/BERT/bert
 
 python run_classifier.py \
   --task_name=mrpc \
@@ -17,4 +17,4 @@ python run_classifier.py \
   --train_batch_size=16 \
   --learning_rate=2e-3 \
   --num_train_epochs=10.0 \
-  --output_dir=/data/NLP_datas/BERT/tmp/zhTTQ_output/
+  --output_dir=/data/NLP_projects/BERT/tmp/zhTTQ_output/
