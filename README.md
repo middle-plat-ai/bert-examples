@@ -5,7 +5,6 @@
 
 ## 预训练模型下载：
 
-```
 [BERT-Base, Uncased](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip): 12-layer, 768-hidden, 12-heads, 110M parameters
 
 [BERT-Large, Uncased](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip): 24-layer, 1024-hidden, 16-heads, 340M parameters
@@ -17,7 +16,7 @@
 [BERT-Base, Multilingual](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip): 102 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
 
 [BERT-Base, Chinese](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip): Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M parameters
-```
+
 
 ## dir tree
 
@@ -43,13 +42,13 @@ bert-demo/
 
 [glue_data/MSRParaphraseCorpus](https://www.microsoft.com/en-us/download/details.aspx?id=52398&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F607d14d9-20cd-47e3-85bc-a2f65cd28042%2F)
 
-训练
+ 训练
 
-sh shells/train_mrpc.sh
+  sh shells/train_mrpc.sh
 
 测试
 
-sh shells/predict_mrpc.sh
+  sh shells/predict_mrpc.sh
 
 ### 中文
 
