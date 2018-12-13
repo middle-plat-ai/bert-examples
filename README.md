@@ -108,6 +108,12 @@ python predict_cli.py
 
 ## [bert-as-service](https://github.com/hanxiao/bert-as-service)
 
+依赖
+```
+python>=3.5，不支持python2
+tensorflow>=1.11(运行bert的需要)
+```
+
 安装
 ```
 pip install bert-serving-server  # server
