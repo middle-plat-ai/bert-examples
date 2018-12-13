@@ -106,6 +106,19 @@ python ner_predict.py
 python predict_cli.py
 ```
 
+## [bert-as-service](https://github.com/hanxiao/bert-as-service)
+
+安装
+```
+pip install bert-serving-server  # server
+pip install bert-serving-client  # client, independent of `bert-serving-server`
+```
+
+启动服务
+```
+bert-serving-start -model_dir /tmp/english_L-12_H-768_A-12/ -num_worker=4
+```
+
 ## Reference
 
 1 [BERT](https://github.com/google-research/bert)：google-BERT
